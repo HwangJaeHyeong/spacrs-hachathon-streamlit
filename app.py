@@ -1,3 +1,6 @@
 import streamlit as st
 
-st.write("Hello 22")
+on = st.toggle('Activate feature')
+
+if on:
+    st.write('Feature activated!')
